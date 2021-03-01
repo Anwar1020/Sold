@@ -19,8 +19,6 @@
         android:backgroundTint="#4c5765"
         android:hint="Nickname"
         android:textColorHint="#394655"
-        android:textColor="#000000"
-        android:textColorHighlight="#000000"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +35,6 @@
         android:textColorHint="#394655"
         android:inputType="textEmailAddress"
         android:textSize="17dp"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -53,7 +50,6 @@
         android:textColorHint="#394655"
         android:inputType="textPassword"
         android:textSize="17dp"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -69,7 +65,6 @@
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:textSize="17dp"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -82,13 +77,12 @@
         android:background="#2F8FCC"
         android:text="Submit"
         android:textSize="15dp"
-        android:textColor="#F1E7E7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmsignuppassword"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.045"></Button>
 
     <ProgressBar
         android:id="@+id/progressBar2"

@@ -118,6 +118,7 @@ public class signuppage extends AppCompatActivity {
                             info.put("nickname",snickname);
                             info.put("image","default");
                             info.put("thumbpic","default");
+                            info.put("current_auction","NULL");
                             mdataRef.setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {

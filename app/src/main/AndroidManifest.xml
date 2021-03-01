@@ -9,17 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".signuppage"></activity>
+        <activity android:name=".CreateNewAuction"></activity>
+        <activity android:name=".MyAuction" />
+        <activity android:name=".OnGoingAuction" />
+        <activity android:name=".profilepage" />
+        <activity android:name=".signuppage" />
         <activity
             android:name=".loginpage"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="unspecified" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
