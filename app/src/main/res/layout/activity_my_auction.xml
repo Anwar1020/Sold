@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MyAuction">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8F1ED"
+        android:orientation="vertical"
+        android:weightSum="4"
+        >
+        <include
+            android:id="@+id/myauctiontoolbar"
+            layout="@layout/toolbar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:id="@+id/currentbidbuttonid"
+            android:background="@drawable/joinabid"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/categorybuttonid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/createabid"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:id="@+id/teambuttonid"
+            android:background="@drawable/joinabid"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/bidsettingbuttonid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/createabid"
+            android:orientation="horizontal" />
+
+</LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

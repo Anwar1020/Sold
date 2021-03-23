@@ -4,56 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".CreateNewAuction">
     <include
         layout="@layout/toolbar"
         android:id="@+id/createauctiontoolbar" />
 
+
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/auctionnameid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="#000000"
+        android:layout_marginLeft="7dp"
+        android:backgroundTint="#4c5765"
         android:hint="Enter Auction Name"
-        android:textColorHint="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#394655"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createauctiontoolbar" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
 
     <EditText
-
-        android:id="@+id/editText2"
+        android:id="@+id/totalteamid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="Total Money"
-        android:inputType="textPersonName"
+        android:layout_marginLeft="7dp"
+        android:backgroundTint="#4c5765"
+        android:hint="Enter Total Teams"
+        android:textColorHint="#394655"
+        android:inputType="numberDecimal"
+        android:textSize="17dp"
         android:textColor="#000000"
-        android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <EditText
+        android:id="@+id/totalauctionamountid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:backgroundTint="#4c5765"
+        android:hint="Enter Total Auction Amount"
+        android:textColorHint="#394655"
+        android:inputType="numberDecimal"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
 
     <Button
         android:id="@+id/createauctionsubmitbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="Button"
+        android:layout_width="105dp"
+        android:layout_height="67dp"
+        android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/totalauctionamountid"
+        app:layout_constraintVertical_bias="0.17" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
